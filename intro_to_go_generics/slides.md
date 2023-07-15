@@ -114,6 +114,8 @@ func printTwoVals[T, V interface{}](t T, v V) {
 But in this case using `any` for multi type parameter will fail.
 
 ```go
+package main
+
 import "fmt"
 
 func main() {
@@ -133,6 +135,8 @@ func printMap[K, V any](m map[K]V) {
 This can be fixed by using `comparable` constraint
 
 ```go
+package main
+
 import "fmt"
 
 func main() {
