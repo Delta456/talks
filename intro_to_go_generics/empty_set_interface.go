@@ -1,3 +1,5 @@
+// NOTE: This code does not compiles and is for demonstration.
+// Gives the error cannot satisfy Int (empty type set)
 package main
 
 import "fmt"
